@@ -87,6 +87,20 @@ h6 {
   color: whitesmoke;
   background: var(--branding-color);
 }
+.container {
+  margin-bottom: 80px;
+}
+.inquiry {
+  margin-top: 80px;
+  max-width: 1160px;
+  height: 180px;
+  background-color: var(--back-color);
+}
+.email {
+  font-family: var(--sec-font);
+
+  font-size: 24px;
+}
 @media (max-width: 900px) {
   .hero {
     padding: 100px 10px;
