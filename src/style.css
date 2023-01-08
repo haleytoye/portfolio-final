@@ -33,7 +33,7 @@ h6 {
 .hero {
   background-color: var(--back-color);
   text-align: center;
-  padding: 200px 20px;
+  padding: 160px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -52,7 +52,7 @@ h6 {
 }
 
 .p-div {
-  font-size: 24px;
+  font-size: 28px;
 }
 .btn-branding {
   color: whitesmoke;
@@ -63,9 +63,15 @@ h6 {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding:hover {
+  color: var(--branding-color);
+  background-color: whitesmoke;
+  border: 2px solid var(--branding-color);
+  border-radius: 4px;
+}
 .btn-branding-outline {
   color: var(--branding-color);
-  background: whitesmoke;
+  background: white;
   border: 2px solid var(--branding-color);
   border-radius: 4px;
   font-family: var(--sec-font);
@@ -76,6 +82,10 @@ h6 {
 }
 .project-desc {
   padding: 120px 60px 0px;
+}
+.btn-branding-outline:hover {
+  color: whitesmoke;
+  background: var(--branding-color);
 }
 @media (max-width: 900px) {
   .hero {
