@@ -55,6 +55,7 @@ h6 {
   font-size: 28px;
 }
 .btn-branding {
+  text-decoration: none;
   color: whitesmoke;
   background: var(--branding-color);
   border-radius: 4px;
@@ -101,6 +102,27 @@ h6 {
 
   font-size: 24px;
 }
+
+.about-hero {
+  margin: 0 auto;
+  padding: 160px 20px;
+}
+.about-hero h1 {
+  line-height: 80px;
+  font-size: 64px;
+}
+.about-hero h2 {
+  font-size: 18px;
+  font-family: var(--sec-font);
+}
+.about-hero img {
+  border-radius: 8px;
+  max-width: 100%;
+  max-height: 75%;
+}
+.about-section-content {
+  margin: 20px;
+}
 @media (max-width: 900px) {
   .hero {
     padding: 100px 10px;
@@ -118,5 +140,12 @@ h6 {
   .project-desc {
     padding: 0;
     text-align: center;
+  }
+  .email h2 {
+    font-size: 44px;
+  }
+  .about-hero {
+    text-align: center;
+    padding: 0;
   }
 }
