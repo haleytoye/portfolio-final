@@ -33,6 +33,32 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="logo"
+          />
+
+          <img
+            src="/images/logo.png"
+            alt="logo-small"
+            class="logo d-block d-md-none"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li><a href="/about.html">About</a></li>
+
+          <li class="active"><a href="/work.html" class="active">Work</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-hero container">
       <div class="content">
         <div class="images">
@@ -68,6 +94,35 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-center text-muted">Lets work together</p>
+          </div>
+          <div>
+            <a href="" class="btn btn-branding mt-3">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5 mb-5">
+          <a href="mailto:htoye@gmail.com" class="email-link"
+            >htoye@gmail.com
+          </a>
+        </div>
+        <div class="social text-center">
+          <a href="https://github.com/haleytoye" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://github.com/haleytoye" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://github.com/haleytoye" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
