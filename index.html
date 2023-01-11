@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="haley toye homepage" />
-    <title>Haley Toye Homepage</title>
+    <meta
+      name="description"
+      content="Haley front end developer based in Canada"
+    />
+    <title>Haley Toye front-end developer</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -35,27 +38,27 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="/images/logo.png"
             class="logo d-none d-md-block"
-            alt="logo"
+            alt="ht-logo"
           />
 
           <img
             src="/images/logo.png"
-            alt="logo-small"
+            alt="ht-logo-small"
             class="logo d-block d-md-none"
           />
         </a>
         <ul>
           <li class="active">
-            <a href="/" class="active">Home</a>
+            <a href="/" title="Homepage" class="active">Home</a>
           </li>
-          <li><a href="/about.html">About</a></li>
+          <li><a href="/about.html" title="About">About</a></li>
 
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/work.html" title="Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -63,7 +66,11 @@
       <p>Hello! I'm</p>
       <h1>Haley Toye</h1>
       <h2 class="mb-5">Future front-end developer, based in Canada 🇨🇦🍁</h2>
-      <div><a href="#" class="btn btn-branding">Contact me</a></div>
+      <div>
+        <a href="/contact.html" class="btn btn-branding" title="contact me"
+          >Contact me</a
+        >
+      </div>
     </div>
     <p class="p-div text-center m-5">Featured Projects</p>
     <div class="container">
@@ -86,7 +93,7 @@
               viewed and brought to the table by others. Food is meant to be
               shared!
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
           </div>
         </div>
       </div>
@@ -102,13 +109,19 @@
               specialised icons for the current en forecast weather conditions
               makes this project truly unique.
             </p>
-            <a href="#" class="btn btn-branding-outline">Launch Project</a>
+            <a
+              href="https://ht-weather-app.netlify.app"
+              target="_blank"
+              class="btn btn-branding-outline"
+              title="weather-link"
+              >Launch Project</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <img
             src="/images/weatherapp.png"
-            alt="baking-img"
+            alt="weather-img"
             class="baking img-fluid ms-0"
           />
         </div>
@@ -117,7 +130,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="/images/worldclock.png"
-            alt="baking-img"
+            alt="clock-img"
             class="baking img-fluid ms-0"
           />
         </div>
@@ -130,7 +143,13 @@
               time of any major city across the globe. Further learning of
               Bootstrap and function writing led to this fun app!
             </p>
-            <a href="#" class="btn btn-branding-outline">View Here</a>
+            <a
+              href="https://world-clock-ht.netlify.app"
+              target="_blank"
+              class="btn btn-branding-outline"
+              title="clock-link"
+              >View Here</a
+            >
           </div>
         </div>
       </div>
@@ -140,29 +159,53 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-center text-muted">Lets work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="contact Haley"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mt-5 mb-5">
-          <a href="mailto:htoye@gmail.com" class="email-link"
+          <a
+            href="mailto:htoye@gmail.com"
+            class="email-link"
+            title="Email Haley"
             >htoye@gmail.com
           </a>
         </div>
         <div class="social text-center">
-          <a href="https://github.com/haleytoye" target="_blank"
+          <a
+            href="https://github.com/haleytoye"
+            title="Haley's Instagram"
+            target="_blank"
             ><i class="fab fa-instagram"></i
           ></a>
-          <a href="https://github.com/haleytoye" target="_blank"
+          <a
+            href="https://github.com/haleytoye"
+            title="Haley's Github"
+            target="_blank"
             ><i class="fab fa-github"></i
           ></a>
-          <a href="https://github.com/haleytoye" target="_blank"
+          <a
+            href="https://github.com/haleytoye"
+            title="Haley's Facbook"
+            target="_blank"
             ><i class="fab fa-facebook"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Haley Toye and is
+          <a href="https://github.com/haleytoye/" target="_blank"
+            >open-sourced</a
+          >
+          👍
+        </p>
       </footer>
     </div>
   </body>
