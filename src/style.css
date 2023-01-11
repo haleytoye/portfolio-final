@@ -134,6 +134,32 @@ h6 {
 .content {
   margin: 20px;
 }
+.logo {
+  max-width: 150px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  font-family: var(--sec-font);
+  color: #272142;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+li.active a {
+  color: var(--branding-color);
+}
 
 @media (max-width: 900px) {
   .hero {
@@ -159,5 +185,8 @@ h6 {
   .content-hero {
     text-align: center;
     padding: 0;
+  }
+  nav a {
+    font-size: 12px;
   }
 }
