@@ -129,7 +129,7 @@ p {
   margin: 20px;
 }
 .logo {
-  max-height: 50px;
+  max-height: 45px;
 }
 nav {
   padding: 20px 0;
@@ -193,12 +193,11 @@ footer .social a:hover {
   color: white;
 }
 @media (max-width: 900px) {
-  .hero {
-    padding: 60px 10px;
-    line-height: 1.5;
+  h1 {
+    font-size: 44px;
   }
-  .hero h1 {
-    font-size: 60px;
+  .content h1 {
+    font-size: 44px;
   }
   .hero p {
     font-size: 24px;
